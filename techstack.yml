@@ -1,0 +1,174 @@
+repo_name: sanchosmurf/ADB-Explorer
+report_id: 7098d02d58585362b0cfc154acd54f9f
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-08T16:54:52+00:00'
+requested_by: Alex4SSB
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB_Test/ADB_Test.csproj
+  detection_source: ADB_Test/ADB_Test.csproj
+  last_updated_by: Alex
+  last_updated_on: 2023-06-24 19:10:55.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: 7.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer/ADB Explorer.csproj
+  detection_source: ADB Explorer/ADB Explorer.csproj
+  last_updated_by: Alex
+  last_updated_on: 2021-07-09 15:46:06.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 7.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer/ADB Explorer.csproj
+  detection_source: ADB Explorer/ADB Explorer.csproj
+  last_updated_by: Alex
+  last_updated_on: 2021-07-09 15:46:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB_Test/ADB_Test.csproj
+  detection_source: ADB_Test/ADB_Test.csproj
+  last_updated_by: Alex
+  last_updated_on: 2021-07-09 15:46:06.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer.sln
+  detection_source: ADB Explorer.sln
+  last_updated_by: Alex
+  last_updated_on: 2021-12-14 20:31:06.000000000 Z
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB_Test/ADB_Test.csproj
+  detection_source: ADB_Test/ADB_Test.csproj
+  last_updated_by: Alex
+  last_updated_on: 2023-06-24 19:10:55.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer/ADB Explorer.csproj
+  detection_source: ADB Explorer/ADB Explorer.csproj
+  last_updated_by: Alex
+  last_updated_on: 2023-06-24 19:10:55.000000000 Z
+- name: System.Management
+  description: Provides access to a rich set of management information and management
+    events about the system
+  package_url: https://www.nuget.org/System.Management
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13280/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer/ADB Explorer.csproj
+  detection_source: ADB Explorer/ADB Explorer.csproj
+  last_updated_by: Alex4SSB
+  last_updated_on: 2023-12-09 20:47:57.000000000 Z
+- name: System.Security.Cryptography.Algorithms
+  description: Provides base types for cryptographic algorithms, including hashing,
+    encryption, and signing operations
+  package_url: https://www.nuget.org/System.Security.Cryptography.Algorithms
+  version: 4.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12929/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/sanchosmurf/ADB-Explorer/blob/master/ADB
+    Explorer/ADB Explorer.csproj
+  detection_source: ADB Explorer/ADB Explorer.csproj
+  last_updated_by: Alex4SSB
+  last_updated_on: 2023-12-09 20:47:57.000000000 Z
